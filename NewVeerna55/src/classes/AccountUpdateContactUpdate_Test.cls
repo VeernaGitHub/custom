@@ -5,7 +5,7 @@
   insert acc;
   Contact con=new contact(AccountId=acc.id,Firstname='admin',LastName='Sfdc',MailingCity='ban');
   insert con;
-  acc.BillingCity='bangalore';
+  acc.BillingCity='hyd';
   update acc;
   update con;
   }
